@@ -1,0 +1,349 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #28364a;
+}
+
+main {
+  width: 300px;
+  background-color: #38618c;
+  color: white;
+  background-color: #28364a;
+  padding: 20px 10px;
+  position: relative;
+}
+
+/* BUTTONS */
+.startButton {
+  display: block;
+  width: 260px;
+  text-align: center;
+  margin: auto 0;
+  background-color: #ff5964;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 300px;
+}
+
+.verderButton {
+  background-color: #ff5964;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  padding: 10px 40px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.wijzigButton {
+  display: block;
+  width: 100px;
+  background-color: #ff5964;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  padding: 8px 30px;
+  cursor: pointer;
+  margin-bottom: 130px;
+}
+
+.backButton {
+  position: absolute;
+  right: 10px;
+  top: -50px;
+  background-color: #38618c;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.emptyState a {
+  display: block;
+  margin: 20px 0;
+  background-color: #ff5964;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  padding: 7px 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.overzichtButtons a {
+  display: block;
+  margin: 30px auto;
+  width: 200px;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 50px;
+  font-size: 1.2em;
+}
+
+.overzichtButtons a:nth-of-type(1) {
+  background-color: #ff5964;
+}
+
+.overzichtButtons a:nth-of-type(2) {
+  background-color: #38618c;
+}
+/* EINDE BUTTONS */
+
+.midden {
+  text-align: center;
+}
+
+header {
+  height: 40px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+header section {
+  width: 300px;
+}
+
+header a {
+  text-decoration: none;
+  color: #38618c;
+}
+
+main h2 {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+main article section {
+  margin: 30px 0;
+}
+
+form h2 {
+  text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+  margin-top: 6px;
+  width: 250px;
+  height: 30px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+form section {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+form section:nth-of-type(3) section {
+  background-color: red;
+  display: block;
+  text-align: center;
+}
+
+.kleurSelectie section {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#blauw,
+#rood,
+#wit,
+#zwart {
+  display: none;
+}
+
+#blauw + label {
+  background-color: blue;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#rood + label {
+  background-color: red;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#wit + label {
+  background-color: #fff;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#zwart + label {
+  background-color: #000;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#blauw:checked + label,
+#rood:checked + label,
+#wit:checked + label,
+#zwart:checked + label {
+  outline: 3px solid #ffca15;
+}
+
+.emptyState {
+  padding: 80px 0;
+  text-align: initial;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.overzichtArticle {
+  text-align: center;
+  position: relative;
+}
+
+.shirtContainer {
+  margin: 20px auto;
+  position: relative;
+  width: 260px;
+  height: 260px;
+  border: 1px solid rgb(255 255 255 / 10%);
+}
+
+.shirtContainer img {
+  width: 260px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.wijzigen {
+  text-align: center;
+}
+
+.opslaanArticle {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.opslaanArticle .shirtContainer {
+  margin-bottom: 80px;
+}
+
+.verwijderd {
+  text-align: center;
+  margin: 100px auto;
+}
+.verwijderd h2 {
+  margin-bottom: 40px;
+}
+
+.bestelArticle {
+  text-align: center;
+}
+
+.bestelArticle .prijs {
+  margin-bottom: 100px;
+  font-weight: 900;
+}
+
+.bestelArticle input {
+  display: none;
+}
+
+.bethaalMethode {
+  display: flex;
+  justify-self: center;
+  margin-top: 10px;
+}
+
+.bethaalMethode img {
+  width: 70px;
+  height: auto;
+  cursor: pointer;
+}
+
+.bestelArticle input:checked + label {
+  outline: 2px solid #ffca15;
+}
+
+footer {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+footer img {
+  width: 300px;
+  height: auto;
+}
+
+footer p {
+  padding: 25px 0;
+  font-size: 0.7em;
+}
+
+.verwijderd {
+  margin-bottom: 200px;
+}
+
+@media only screen and (min-width: 430px) {
+  main {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  body {
+    background-color: #28364a;
+  }
+
+  main {
+    width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .overzichtArticle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header section {
+    width: 1000px;
+  }
+
+  footer {
+    margin-top: 150px;
+  }
+}

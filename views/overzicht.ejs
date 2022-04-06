@@ -1,0 +1,54 @@
+<h2 class="midden">Overzichtslijst</h2>
+<a href="/" class="backButton">Home</a>
+
+<% if (!item){ %>
+<section class="emptyState">
+<p>Je hebt nog geen T-Shirt gecustomized</p>
+<a href="/form">T-Shirt Customizen</a>
+</section>
+<% } else { %>
+
+<article class="overzichtArticle">
+  <section>
+    <p>Maat: <%- item.maat %></p>
+    <p>Geslacht: <%- item.geslacht %></p>
+
+    <section class="shirtContainer">
+      <img src="img/shirt<%- item.kleur %>.png" alt="test" />
+      <img src="img/<%- item.text %>.png" alt="test" />
+    </section>
+
+    <a href="/wijzigen" class="wijzigButton">Wijzigen</a></button>
+  </section>
+
+  <% if (!item2){ %>
+<section class="emptyState">
+<p>Je hebt nog geen 2e T-Shirt gecustomized</p>
+<a href="/form2">T-Shirt Customizen</a>
+</section>
+
+<section class="overzichtButtons">
+<a href="/bestellen">Bestellen</a>
+<a href="/verwijderd">Shirt's verwijderen</a>
+</section>
+
+  <% } else { %>
+  <section>
+    <p>Maat: <%- item2.maat %></p>
+    <p>Geslacht: <%- item2.geslacht %></p>
+
+    <section class="shirtContainer">
+      <img src="img/shirt<%- item2.kleur %>.png" alt="test" />
+      <img src="img/<%- item2.text %>.png" alt="test" />
+    </section>
+
+    <a href="/wijzigen2" class="wijzigButton">Wijzigen</a></button>
+  </section>
+
+  <section class="overzichtButtons">
+<a href="/bestellen">Bestellen</a>
+<a href="/verwijderd">Shirt's verwijderen</a>
+</section>
+
+  <% } %> <% } %>
+</article>

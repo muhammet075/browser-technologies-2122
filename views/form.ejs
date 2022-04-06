@@ -1,0 +1,81 @@
+<form action="/opslaan1" method="POST" class="form1">
+  <h2>T-Shirt customizen</h2>
+
+  <section>
+    <label for="naam">Hoe heet jij?</label>
+    <input
+      type="text"
+      id="naam"
+      name="naam"
+      placeholder="Vul je naam in..."
+      required
+    />
+  </section>
+
+  <section>
+    <label for="lname">Wat is jouw E-Mail?</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="Vul je E-Mail in..."
+      required
+    />
+  </section>
+
+  <section>
+    <label for="geslacht">Wat is je geslacht?</label>
+    <select name="geslacht" id="geslacht" required>
+      <option value="" disabled selected>Kies geslacht</option>
+      <option value="Man">Man</option>
+      <option value="Vrouw">Vrouw</option>
+    </select>
+  </section>
+
+  <section>
+    <label for="maat">Wat is je maat?</label>
+    <select name="maat" id="maat" required>
+      <option value="" disabled selected>Kies maat</option>
+      <option value="XS">XS</option>
+      <option value="S">S</option>
+      <option value="M">M</option>
+      <option value="L">L</option>
+      <option value="XL">XL</option>
+      <option value="XXL">XXL</option>
+    </select>
+  </section>
+
+  <section>
+    <label for="text">Welke tekst wil je op de T-Shirt?</label>
+    <select name="text" id="text" required>
+      <option value="" disabled selected>Kies tekst</option>
+      <option value="text1">t-shirt</option>
+      <option value="text2">img src="sixpack.png"</option>
+      <option value="text3">body</option>
+      <option value="text4">#t-shirt</option>
+      <option value="text5">img src="t-shirt.png"</option>
+      <option value="text6">t-shirt.queryselector</option>
+    </select>
+  </section>
+
+  <section class="kleurSelectie">
+    <p>Wat is jouw lievelingskleur?</p>
+    <section>
+      <input type="radio" id="blauw" name="kleur" value="blauw" required />
+      <label for="blauw">Blauw</label>
+
+      <input type="radio" id="rood" name="kleur" value="rood" />
+      <label for="rood">Rood</label>
+
+      <input type="radio" id="wit" name="kleur" value="wit" />
+      <label for="wit">Wit</label>
+
+      <input type="radio" id="zwart" name="kleur" value="zwart" />
+      <label for="zwart">Zwart</label>
+    </section>
+  </section>
+
+  <section>
+    <input type="submit" value="Verder" class="verderButton" />
+  </section>
+</form>

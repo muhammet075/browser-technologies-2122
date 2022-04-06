@@ -1,0 +1,81 @@
+<article class="bestelArticle">
+  <h2>Bestellen</h2>
+
+  <a href="/overzicht" class="backButton">Terug</a>
+
+  <% if (!item){ %>
+  <h3>Error</h3>
+  <% } else { %>
+
+  <p>Naam: <%- item.naam %></p>
+  <p>E-Mail: <%- item.email %></p>
+
+  <section class="opslaanContainer">
+    <p>Maat: <%- item.maat %></p>
+    <section class="shirtContainer">
+      <img src="img/shirt<%- item.kleur %>.png" alt="test" />
+      <img src="img/<%- item.text %>.png" alt="test" />
+    </section>
+    <p class="prijs">&euro; 25,-</p>
+  </section>
+
+  <% if (!item2){ %>
+
+  <p class="prijs">Totaal prijs: &euro; 25,-</p>
+
+  <% } else { %>
+  <section class="opslaanContainer">
+    <p>Maat: <%- item2.maat %></p>
+    <section class="shirtContainer">
+      <img src="img/shirt<%- item2.kleur %>.png" alt="test" />
+      <img src="img/<%- item2.text %>.png" alt="test" />
+    </section>
+    <p class="prijs">&euro; 25,-</p>
+  </section>
+
+  <p class="prijs">Totaal prijs: &euro; 50,-</p>
+
+  <% } %>
+
+  <section>
+    <p>Kies bethaalmethode</p>
+    <section class="bethaalMethode">
+      <input
+        type="radio"
+        id="ideal"
+        name="bethaalmethode"
+        value="ideal"
+        required
+      />
+      <label for="ideal"
+        ><img src="img/ideal.png" alt="Logo van iDeal"
+      /></label>
+
+      <input
+        type="radio"
+        id="mastercard"
+        name="bethaalmethode"
+        value="mastercard"
+      />
+      <label for="mastercard"
+        ><img src="img/mastercard.png" alt="Logo van Mastercard"
+      /></label>
+
+      <input type="radio" id="visa" name="bethaalmethode" value="visa" />
+      <label for="visa"><img src="img/visa.png" alt="Logo van Visa" /></label>
+
+      <input type="radio" id="klarna" name="bethaalmethode" value="Klarna" />
+      <label for="klarna"
+        ><img src="img/klarna.png" alt="Logo van Klarna"
+      /></label>
+
+      <input type="radio" id="paypal" name="bethaalmethode" value="paypal" />
+      <label for="paypal"
+        ><img src="img/paypal.png" alt="Logo van PayPal"
+      /></label>
+    </section>
+  </section>
+  <button class="verderButton">Afrekenen</button>
+
+  <% } %>
+</article>
