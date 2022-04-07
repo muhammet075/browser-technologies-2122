@@ -8,7 +8,7 @@ Voor dit project heb ik een app gebouwd waarbij de gebruiker Nerdy T-Shirt's kan
 Ik wil mijn eigen t-shirt-met-nerdy-tekst kunnen ontwerpen, opslaan, bestellen, en een volgende keer dat ik de site bezoek kunnen gebruiken.
 <br/>
 
-<img src="https://i.ibb.co/5n5m91f/Schermafbeelding-2022-04-07-om-12-56-22.png" alt="screen" width="400px"/>
+<img src="https://i.ibb.co/5n5m91f/Schermafbeelding-2022-04-07-om-12-56-22.png" alt="screen" width="200px"/>
 <br/></br>
 
 ## Features List
