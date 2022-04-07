@@ -45,7 +45,6 @@ cd browser-technologies-2122
 3. Installeer NPM<br/>
 ```
 npm i
-
 ```
 4. Start de app<br/>
 ```
