@@ -27,7 +27,7 @@ Ik wil mijn eigen t-shirt-met-nerdy-tekst kunnen ontwerpen, opslaan, bestellen, 
 * Node-localstorage
 <br/>
 
-## Live Demo
+## Live Demo 🚀
 <a href="https://bt-cmd.herokuapp.com/">https://bt-cmd.herokuapp.com/</a><br/>
 <br/></br>
 
