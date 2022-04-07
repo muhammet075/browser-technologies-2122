@@ -1,6 +1,8 @@
 # Browser Technologies @cmda-minor-web 20-21
 
 Voor dit project heb ik een app gebouwd waarbij de gebruiker Nerdy T-Shirt's kan customizen. De gebruiker kan kiezen uit t-shirts met verschillende kleuren en teksten. De gebruiker kan ze combineren en toevoegen aan de overzichtspagina.
+
+De bedoeling van de app is dat de app op zo veel mogelijk browsers en devices het op zijn beste manier functioneert. Bijvoorbeeld als een browser JavaScript of een aantal CSS properties niet ondersteunt, dat de app nog steeds moet functioneren. Tijdens dit project hebben we veel aandacht aan Progressive Enhancement besteed.
 <br/><br/>
 
 ## Case
