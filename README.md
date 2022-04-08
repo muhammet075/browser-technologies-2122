@@ -61,14 +61,18 @@ npm start
 
 ## Test rapport
 
-# Google Chrome
+### Google Chrome
 Op de browser Google Chrome functioneert mijn app goed. Alle features functioneren goed en de CSS functioneert ook goed. Als de CSS uit staat functioneert de app ook goed en de gebruiker kan gewoon de formulieren goed invullen met alleen de pure HTML.
 <br/><br/>
 
-# Firefox
-
-<br/><br/>
-# Safari
-
+### Firefox
+Net als op de Chromium browsers functioneert de app ook goed op Firefox. Alle CSS properties worden ondersteund die bij mijn app gebruikt zijn. Als JS en CSS ook uitgeschakeld zijn functioneert de app nog steeds en kan de gebruiker de formulier goed invullen net als bij Chrome.
 <br/><br/>
 
+### Safari
+Op Safari werkt de app nog steeds goed net als bij Chrome en Firefox. Alle CSS properties worden ondersteund die bij mijn app gebruikt zijn net als bij Chrome en Firefox. Als JS en CSS ook uitgeschakeld zijn functioneert de app nog steeds en kan de gebruiker de formulier goed invullen net als bij Chrome en FireFox.
+<br/><br/>
+
+### Windows Surface Internet Explorer
+De app functioneert nog steeds op dit browser, alleen bij CSS wordt 'root' en de variabels die daarbij horen niet ondersteund. Ook werd de kleurcode voor wit '#ffff' niet ondersteund. Ik heb het aangepast zodat het ook op dit browser het er mooi uit ziet. Als de CSS en JS uitgeschakeld zijn voor dit browser functioneert ook alles naar behoren.
+<br/><br/>
