@@ -14,7 +14,7 @@ Ik wil mijn eigen t-shirt-met-nerdy-tekst kunnen ontwerpen, opslaan, bestellen, 
 <br/></br>
 
 ## Schetsen
-<img src="https://i.ibb.co/D9LxFJ2/IMG-2693.jpg" alt="schets"/ width="300px"><br/>
+<img src="https://i.ibb.co/D9LxFJ2/IMG-2693.jpg" alt="schets" width="300px"/><br/>
 <img src="https://i.ibb.co/Yckw1hh/IMG-2694.jpg" alt="schets" width="300px"/>
 <br/><br/>
 
