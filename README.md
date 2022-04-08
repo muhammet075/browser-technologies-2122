@@ -13,6 +13,11 @@ Ik wil mijn eigen t-shirt-met-nerdy-tekst kunnen ontwerpen, opslaan, bestellen, 
 <img src="https://i.ibb.co/5n5m91f/Schermafbeelding-2022-04-07-om-12-56-22.png" alt="screen" width="200px"/>
 <br/></br>
 
+## Schetsen
+<img src="https://i.ibb.co/D9LxFJ2/IMG-2693.jpg" alt="schets"/ width="300px"><br/>
+<img src="https://i.ibb.co/Yckw1hh/IMG-2694.jpg" alt="schets" width="300px"/>
+<br/><br/>
+
 ## Features List
 * T-Shirt customizen
 * 2e T-Shirt customizen
