@@ -2,7 +2,7 @@
 
 Voor dit project heb ik een app gebouwd waarbij de gebruiker Nerdy T-Shirt's kan customizen. De gebruiker kan kiezen uit t-shirts met verschillende kleuren en teksten. De gebruiker kan ze combineren en toevoegen aan de overzichtspagina.
 
-De bedoeling van de app is dat de app op zo veel mogelijk browsers en devices het op zijn beste manier functioneert. Bijvoorbeeld als een browser JavaScript of een aantal CSS properties niet ondersteunt, dat de app nog steeds moet functioneren. Tijdens dit project hebben we veel aandacht aan Progressive Enhancement besteed.
+De bedoeling van de app is dat de app op zo veel mogelijk browsers en devices het op zijn beste manier functioneert. Bijvoorbeeld als een browser JavaScript of een aantal CSS properties niet ondersteunt, dat de app nog steeds moet functioneren. Tijdens dit project hebben we veel aandacht aan Progressive Enhancement besteed. In dit geval heb ik eerst de app met pure HTML gebouwd op een Express server. Na dat alles functioneerde heb ik daarna CSS toegevoegd.
 <br/><br/>
 
 ## Case
@@ -71,6 +71,10 @@ Net als op de Chromium browsers functioneert de app ook goed op Firefox. Alle CS
 
 ### Safari
 Op Safari werkt de app nog steeds goed net als bij Chrome en Firefox. Alle CSS properties worden ondersteund die bij mijn app gebruikt zijn net als bij Chrome en Firefox. Als JS en CSS ook uitgeschakeld zijn functioneert de app nog steeds en kan de gebruiker de formulier goed invullen net als bij Chrome en FireFox.
+<br/><br/>
+
+### Safari - iOS
+Op iOS werkt de app nog steeds goed net als bij Chrome en Firefox. Alle CSS properties worden ondersteund die bij mijn app gebruikt zijn net als bij Chrome en Firefox. Alleen de 'terug' knop verspringt een klein beetje bij de header. Dat heb ik gefixt met media queries.
 <br/><br/>
 
 ### Windows Surface Internet Explorer
