@@ -1,0 +1,4 @@
+.shirtContainer1::after,
+.shirtContainer2::after {
+  display: none;
+}
