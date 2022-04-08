@@ -27,7 +27,7 @@ main {
   background-color: #ff5964;
   color: #fff;
   border: none;
-  text-decoration: none;
+  text-decoration-line: none;
   padding: 10px 20px;
   cursor: pointer;
   margin-bottom: 300px;
@@ -37,7 +37,7 @@ main {
   background-color: #ff5964;
   color: #fff;
   border: none;
-  text-decoration: none;
+  text-decoration-line: none;
   padding: 10px 40px;
   font-size: 1.2em;
   cursor: pointer;
@@ -57,7 +57,7 @@ main {
 
 .backButton {
   position: absolute;
-  right: 10px;
+  right: 0px;
   top: -50px;
   background-color: #38618c;
   color: #fff;
@@ -108,10 +108,6 @@ header {
   background-color: #fff;
 }
 
-header section {
-  width: 300px;
-}
-
 header a {
   text-decoration: none;
   color: #38618c;
@@ -142,8 +138,19 @@ form select {
 
 form section {
   margin: 40px 0;
-  display: flex;
-  flex-direction: column;
+}
+
+@supports (display: flex) {
+  form section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@supports not (display: flex) {
+  form section {
+    display: block;
+  }
 }
 
 form section:nth-of-type(3) section {
@@ -313,6 +320,10 @@ footer p {
   font-size: 0.7em;
 }
 
+footer {
+  margin-top: 150px;
+}
+
 .verwijderd {
   margin-bottom: 200px;
 }
@@ -320,6 +331,10 @@ footer p {
 @media only screen and (min-width: 430px) {
   main {
     width: 400px;
+  }
+
+  header section {
+    width: 430px;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -330,6 +345,10 @@ footer p {
   main {
     width: 1000px;
   }
+
+  header section {
+    width: 1000px;
+  }
 }
 
 @media only screen and (min-width: 1050px) {
@@ -338,12 +357,16 @@ footer p {
     justify-content: space-between;
     align-items: center;
   }
-
-  header section {
-    width: 1000px;
+}
+@supports not (display: flex) {
+  .overzichtArticle {
+    display: block;
   }
+}
 
-  footer {
-    margin-top: 150px;
+@supports not (text-decoration-line: none) {
+  .startButton,
+  .verderButton {
+    text-decoration: none;
   }
 }
